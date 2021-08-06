@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass OmenSensor_MissionInteractable_CDC_C_ChemicalContainer_GE.OmenSensor_MissionInteractable_CDC_C_ChemicalContainer_GE_C
+// Size: 0x288 (Inherited: 0x288)
+struct UOmenSensor_MissionInteractable_CDC_C_ChemicalContainer_GE_C : UGameplayEffectOmenSensor {
+};
+

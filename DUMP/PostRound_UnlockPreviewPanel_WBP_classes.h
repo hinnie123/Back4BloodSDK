@@ -1,0 +1,35 @@
+// WidgetBlueprintGeneratedClass PostRound_UnlockPreviewPanel_WBP.PostRound_UnlockPreviewPanel_WBP_C
+// Size: 0x4ec (Inherited: 0x450)
+struct UPostRound_UnlockPreviewPanel_WBP_C : UGobiUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x450(0x08)
+	struct UVerticalBox* AnimatedPanel; // 0x458(0x08)
+	struct UBackgroundBlur* Blur; // 0x460(0x08)
+	struct UScrollBox* ScrollBox; // 0x468(0x08)
+	struct UHorizontalBox* ShowcaseImageHBox; // 0x470(0x08)
+	struct UPlatformCalloutButton_WBP_C* SkipButton; // 0x478(0x08)
+	struct UImage* SPIcon; // 0x480(0x08)
+	struct UHorizontalBox* SupplyPointsContainer; // 0x488(0x08)
+	struct UTextBlock* SupplyPointText; // 0x490(0x08)
+	struct UImage* Tint; // 0x498(0x08)
+	struct UBaseTextBlock_C* TitleText; // 0x4a0(0x08)
+	struct UImage* UnlockBG; // 0x4a8(0x08)
+	struct UTweenContainer* TweenContainer; // 0x4b0(0x08)
+	float ListAnimDelay; // 0x4b8(0x04)
+	char pad_4BC[0x4]; // 0x4bc(0x04)
+	struct FMulticastInlineDelegate OnUnlocksClosed; // 0x4c0(0x10)
+	bool bIsUnlockTweenCreated; // 0x4d0(0x01)
+	char pad_4D1[0x7]; // 0x4d1(0x07)
+	struct UTweenContainer* ListTweenContainer; // 0x4d8(0x08)
+	bool bSupplyPointsEarned; // 0x4e0(0x01)
+	bool bProductsEarned; // 0x4e1(0x01)
+	bool bFadeOutTriggered; // 0x4e2(0x01)
+	char pad_4E3[0x1]; // 0x4e3(0x01)
+	int32_t SupplyPoints; // 0x4e4(0x04)
+	bool bInDesign; // 0x4e8(0x01)
+	bool bIsPreview; // 0x4e9(0x01)
+	bool bFadeInTriggered; // 0x4ea(0x01)
+	bool bIsDebugMode; // 0x4eb(0x01)
+
+	void LoadCVars(); // Function PostRound_UnlockPreviewPanel_WBP.PostRound_UnlockPreviewPanel_WBP_C.LoadCVars // (None) // @ game+0xfffffffec0000000
+};
+

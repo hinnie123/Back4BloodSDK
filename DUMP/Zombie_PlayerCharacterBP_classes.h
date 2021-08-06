@@ -1,0 +1,37 @@
+// BlueprintGeneratedClass Zombie_PlayerCharacterBP.Zombie_PlayerCharacterBP_C
+// Size: 0x12ec (Inherited: 0x1200)
+struct AZombie_PlayerCharacterBP_C : AZombieCharacter {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x1200(0x08)
+	struct UArmorComponent* Armor; // 0x1208(0x08)
+	struct UStumbleDamageAccumulatorComponent* StumbleDamageAccumulator; // 0x1210(0x08)
+	struct UAimAssistTargetComponent* AimAssistTarget; // 0x1218(0x08)
+	struct UDrench_Component_ZombiePlayer_BP_C* Drench; // 0x1220(0x08)
+	struct UDamageFilterComponent* DamageFilter; // 0x1228(0x08)
+	struct UZombieGhostComponent* ZombieGhost; // 0x1230(0x08)
+	struct UCameraViewModifierComponent* CameraViewModifier; // 0x1238(0x08)
+	struct UKillHandlerComponent* KillHandler; // 0x1240(0x08)
+	struct UFlashBangReceiver_BP_C* FlashBangReceiver_BP; // 0x1248(0x08)
+	struct UInfectedHighlightComponent* InfectedHighlight; // 0x1250(0x08)
+	struct UPingableComponent* Pingable; // 0x1258(0x08)
+	struct UPointLightComponent* ZombieLight; // 0x1260(0x08)
+	struct UGameplayContextComponent* GameplayContext; // 0x1268(0x08)
+	struct USceneComponent* CameraRoot; // 0x1270(0x08)
+	struct UCameraComponent* ThirdPersonCamera; // 0x1278(0x08)
+	struct USpringArmComponent* ThirdPersonSpringArm; // 0x1280(0x08)
+	struct UMantleComponent* Mantle; // 0x1288(0x08)
+	struct UHitMarkerComponent* HitMarker; // 0x1290(0x08)
+	struct UEnemyAudioComponent_BP_C* EnemyAudioComponent_BP; // 0x1298(0x08)
+	struct UCapsuleComponent* Damage_Capsule; // 0x12a0(0x08)
+	struct UCapsuleComponent* CharacterOverlapVolume; // 0x12a8(0x08)
+	struct UDistanceMapSourceComponent* DistanceMapSource; // 0x12b0(0x08)
+	struct UPhysicalAnimationComponent* PhysicalAnimation; // 0x12b8(0x08)
+	struct UPlayerMovementDebugComponent* PlayerMovementDebug; // 0x12c0(0x08)
+	struct UPlayerZombieLifeStateComponent_BP_C* LifeStateComponent; // 0x12c8(0x08)
+	struct UZombieViewComponent* ZombieView; // 0x12d0(0x08)
+	struct UGameplayEffectsComponent* GameplayEffects; // 0x12d8(0x08)
+	struct UHealthComponent* Health; // 0x12e0(0x08)
+	float StandingEyeHeight; // 0x12e8(0x04)
+
+	void Update Ghost State(); // Function Zombie_PlayerCharacterBP.Zombie_PlayerCharacterBP_C.Update Ghost State // (None) // @ game+0xfffffffec0000000
+};
+

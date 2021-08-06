@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass PvP_Common_Stats_Tier4_Damage_GE.PvP_Common_Stats_Tier4_Damage_GE_C
+// Size: 0x268 (Inherited: 0x268)
+struct UPvP_Common_Stats_Tier4_Damage_GE_C : UGameplayEffectDamageFilter {
+};
+

@@ -1,0 +1,38 @@
+// WidgetBlueprintGeneratedClass CardDrawScreen_WBP.CardDrawScreen_WBP_C
+// Size: 0x700 (Inherited: 0x5f0)
+struct UCardDrawScreen_WBP_C : UCardDrawScreen {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x5f0(0x08)
+	struct UTutorialTip_WBP_C* ActiveCardsTutorialTip; // 0x5f8(0x08)
+	struct UImage* BGFill; // 0x600(0x08)
+	struct UImage* BGImage; // 0x608(0x08)
+	struct UBurnCardsButton_WBP_C* BurnCardsButton; // 0x610(0x08)
+	struct UBurnCardsPanel_WBP_C* BurnCardsPanel; // 0x618(0x08)
+	struct UPlatformCallouts_WBP_C* Callouts; // 0x620(0x08)
+	struct UImage* CardBG; // 0x628(0x08)
+	struct UDirectorCardsPanel_WBP_C* DirectorCards; // 0x630(0x08)
+	struct UBackgroundBlur_WBP_C* DrawBG; // 0x638(0x08)
+	struct UMissionLoadout_Header_WBP_C* DrawHeader; // 0x640(0x08)
+	struct UHorizontalBox* DrawnCards; // 0x648(0x08)
+	struct UOverlay* DrawOverlay; // 0x650(0x08)
+	struct UTutorialTip_WBP_C* DrawTutorialTip; // 0x658(0x08)
+	struct UImage* Fader; // 0x660(0x08)
+	struct UFooter_WBP_C* Footer_WBP; // 0x668(0x08)
+	struct UMissionLoadout_Header_WBP_C* Header; // 0x670(0x08)
+	struct UHeader_WBP_C* Header_WBP; // 0x678(0x08)
+	struct UPlatformCalloutButton_WBP_C* HideDrawnCardsButton; // 0x680(0x08)
+	struct UTextBlock* OverlayDrawCount; // 0x688(0x08)
+	struct UTextBlock* OverlayDrawText; // 0x690(0x08)
+	struct UPlayedCardsGrid_WBP_C* PlayedCardsGrid; // 0x698(0x08)
+	struct UPrimaryActionCalloutButton_WBP_C* ReadyButton; // 0x6a0(0x08)
+	struct UCanvasPanel* RootPanel; // 0x6a8(0x08)
+	struct UPlatformCalloutButton_WBP_C* ShowDrawnCardsButton; // 0x6b0(0x08)
+	struct UBaseTextBlock_C* TitleText; // 0x6b8(0x08)
+	struct UOverlay* TutorialContainer; // 0x6c0(0x08)
+	float AnimationSpeed; // 0x6c8(0x04)
+	char pad_6CC[0x4]; // 0x6cc(0x04)
+	struct UTweenContainer* TweenContainer; // 0x6d0(0x08)
+	struct TSoftObjectPtr<UTexture2D> BGTexture; // 0x6d8(0x28)
+
+	void GetMapInfo(); // Function CardDrawScreen_WBP.CardDrawScreen_WBP_C.GetMapInfo // (None) // @ game+0xfffffffec0000000
+};
+

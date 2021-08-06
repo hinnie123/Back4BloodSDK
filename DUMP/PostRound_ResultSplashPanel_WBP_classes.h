@@ -1,0 +1,37 @@
+// WidgetBlueprintGeneratedClass PostRound_ResultSplashPanel_WBP.PostRound_ResultSplashPanel_WBP_C
+// Size: 0x518 (Inherited: 0x458)
+struct UPostRound_ResultSplashPanel_WBP_C : UPostRoundResultsSplashUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x458(0x08)
+	struct UBackgroundBlur* Blur; // 0x460(0x08)
+	struct UVerticalBox* ContinueCountContainer; // 0x468(0x08)
+	struct UTextBlock* ContinueCountText; // 0x470(0x08)
+	struct UTextBlock* ContinueCountTextOLD; // 0x478(0x08)
+	struct UOverlay* ContinuesContainer; // 0x480(0x08)
+	struct UVerticalBox* ContinuesRemainingContainer; // 0x488(0x08)
+	struct UImage* Fader; // 0x490(0x08)
+	struct UVerticalBox* FailureStatsPanel; // 0x498(0x08)
+	struct UTextBlock* NoContinuesText; // 0x4a0(0x08)
+	struct UVerticalBox* StatsList; // 0x4a8(0x08)
+	struct UImage* Tint; // 0x4b0(0x08)
+	struct UBaseTextBlock_C* TitleText; // 0x4b8(0x08)
+	struct UBaseTextBlock_C* TransitionCountdown; // 0x4c0(0x08)
+	struct UBaseTextBlock_C* TransitionDesc; // 0x4c8(0x08)
+	struct UProgressBar* TransitionProgress; // 0x4d0(0x08)
+	bool Victory; // 0x4d8(0x01)
+	char pad_4D9[0x3]; // 0x4d9(0x03)
+	float TransitionDuration; // 0x4dc(0x04)
+	float InitialTransitionDuration; // 0x4e0(0x04)
+	float TextAnimDelay; // 0x4e4(0x04)
+	float ListAnimDelay; // 0x4e8(0x04)
+	bool bRunOver; // 0x4ec(0x01)
+	char pad_4ED[0x3]; // 0x4ed(0x03)
+	float IntroOutroDuration; // 0x4f0(0x04)
+	char pad_4F4[0x4]; // 0x4f4(0x04)
+	struct UTweenContainer* TweenContainer; // 0x4f8(0x08)
+	bool bIsDebugMode; // 0x500(0x01)
+	char pad_501[0x7]; // 0x501(0x07)
+	struct TArray<struct UAkAudioEvent*> FailedDialogue; // 0x508(0x10)
+
+	void PlayFailedDialogue(); // Function PostRound_ResultSplashPanel_WBP.PostRound_ResultSplashPanel_WBP_C.PlayFailedDialogue // (None) // @ game+0xfffffffec0000000
+};
+

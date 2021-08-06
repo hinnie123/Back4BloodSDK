@@ -1,0 +1,38 @@
+// WidgetBlueprintGeneratedClass GameplayOptionsPanel_WBP.GameplayOptionsPanel_WBP_C
+// Size: 0x580 (Inherited: 0x480)
+struct UGameplayOptionsPanel_WBP_C : UGameplayOptionsPanelUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x480(0x08)
+	struct UAccessibilityOptions_WBP_C* AccessibilityOptions; // 0x488(0x08)
+	struct UImage* AquaElementSwatch; // 0x490(0x08)
+	struct UOptionsToggleSpinner_WBP_C* AutoSelectWeaponsSpinner; // 0x498(0x08)
+	struct UScrollBox* BindingsScrollBox; // 0x4a0(0x08)
+	struct UImage* BlueElementsSwatch; // 0x4a8(0x08)
+	struct UOptionsTextSpinner_WBP_C* DepletedAmmoWeaponSwitch; // 0x4b0(0x08)
+	struct UOptionsToggleSpinner_WBP_C* FullAutoSpinner; // 0x4b8(0x08)
+	struct UOptionsToggleSpinner_WBP_C* GameCoachSpinner; // 0x4c0(0x08)
+	struct UOptionSectionHeader_WBP_C* GameplayHeader; // 0x4c8(0x08)
+	struct UImage* GreenElementSwatch; // 0x4d0(0x08)
+	struct UOptionsTextSpinner_WBP_C* GroupInvitePrivacySpinner; // 0x4d8(0x08)
+	struct UOptionsToggleSpinner_WBP_C* HitMarkersSpinner; // 0x4e0(0x08)
+	struct UTextButton_WBP_C* MuxyGameLinkAuthButton; // 0x4e8(0x08)
+	struct UTextButton_WBP_C* MuxyGameLinkDeauthButton; // 0x4f0(0x08)
+	struct UEditableText* MuxyGameLinkPINEntry; // 0x4f8(0x08)
+	struct UImage* OrangeElementSwatch; // 0x500(0x08)
+	struct UOptionsToggleSpinner_WBP_C* RecenterRecoilSpinner; // 0x508(0x08)
+	struct UImage* RedElementSwatch; // 0x510(0x08)
+	struct UTextButton_WBP_C* ResetGameCoachButton; // 0x518(0x08)
+	struct UTextButton_WBP_C* ResetToDefaultButton; // 0x520(0x08)
+	struct UOptionsColorComboBox_WBP_C* ReticleColorComboBox; // 0x528(0x08)
+	struct UOptionsTextSpinner_WBP_C* ReticleTypeSpinner; // 0x530(0x08)
+	struct UOptionSectionHeader_WBP_C* SocialHeader; // 0x538(0x08)
+	struct UOptionsTextSpinner_WBP_C* SplitscreenSpinner; // 0x540(0x08)
+	struct UOptionsToggleSpinner_WBP_C* TakeABreakSpinner; // 0x548(0x08)
+	struct UTextButton_WBP_C* ViewEULAButton; // 0x550(0x08)
+	struct UImage* YellowElementSwatch; // 0x558(0x08)
+	struct UPlayerSettingsSystem* SystemSettings; // 0x560(0x08)
+	struct UPlayerSettingsGame* GameSettings; // 0x568(0x08)
+	struct FMulticastInlineDelegate OnResetToDefaultsPressed; // 0x570(0x10)
+
+	void Init Text Spinners(); // Function GameplayOptionsPanel_WBP.GameplayOptionsPanel_WBP_C.Init Text Spinners // (None) // @ game+0xfffffffec0000000
+};
+

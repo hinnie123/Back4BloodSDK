@@ -1,0 +1,38 @@
+// WidgetBlueprintGeneratedClass GamepadConfigPanel_WBP.GamepadConfigPanel_WBP_C
+// Size: 0x660 (Inherited: 0x558)
+struct UGamepadConfigPanel_WBP_C : UGamepadConfigPanelUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x558(0x08)
+	struct UOverlay* BindingPopup; // 0x560(0x08)
+	struct UScrollBox* BindingsScrollBox; // 0x568(0x08)
+	struct UPlatformCallouts_WBP_C* Callouts; // 0x570(0x08)
+	struct UKeybindList_WBP_C* CommonBindings; // 0x578(0x08)
+	struct UBaseTextBlock_C* ConfigHeader; // 0x580(0x08)
+	struct UOptionsGamepadLayoutGeneric_WBP_C* GamepadLayout_Generic; // 0x588(0x08)
+	struct UOptionsGamepadLayoutPS4_WBP_C* GamepadLayout_PS4; // 0x590(0x08)
+	struct UOptionsGamepadLayoutPS5_WBP_C* GamepadLayout_PS5; // 0x598(0x08)
+	struct UOptionsGamepadLayoutXboxOne_WBP_C* GamepadLayout_XboxOne; // 0x5a0(0x08)
+	struct UOptionsGamepadLayoutXboxSeries_WBP_C* GamepadLayout_XboxSeries; // 0x5a8(0x08)
+	struct UKeybindList_WBP_C* HeroBindings; // 0x5b0(0x08)
+	struct UOptionsSelectableButton_WBP_C* HumanConfig1; // 0x5b8(0x08)
+	struct UOptionsSelectableButton_WBP_C* HumanConfigCustom; // 0x5c0(0x08)
+	struct UOptionsSelectableButton_WBP_C* HumanConfigDefault; // 0x5c8(0x08)
+	struct UVerticalBox* HumanConfigPanel; // 0x5d0(0x08)
+	struct UKeybindList_WBP_C* InfectedBindings; // 0x5d8(0x08)
+	struct URichTextBlock* KeyboardCancelText; // 0x5e0(0x08)
+	struct UTextBlock* TimerText; // 0x5e8(0x08)
+	struct UOptionsUnboundWarning_WBP_C* UnboundWarning; // 0x5f0(0x08)
+	struct UOptionsSelectableButton_WBP_C* ZombieConfig1; // 0x5f8(0x08)
+	struct UOptionsSelectableButton_WBP_C* ZombieConfigCustom; // 0x600(0x08)
+	struct UOptionsSelectableButton_WBP_C* ZombieConfigDefault; // 0x608(0x08)
+	struct UVerticalBox* ZombieConfigPanel; // 0x610(0x08)
+	float SensitivityMax; // 0x618(0x04)
+	char pad_61C[0x4]; // 0x61c(0x04)
+	struct FKey CancelKey; // 0x620(0x18)
+	struct UKeybindList_WBP_C* ActiveList; // 0x638(0x08)
+	struct UPlatformCallouts_WBP_C* Callouts; // 0x640(0x08)
+	struct UOptionsGamepadLayoutUserWidget* CurrentGamepadLayout; // 0x648(0x08)
+	struct TArray<struct UKeybindList_WBP_C*> AllKeybindLists; // 0x650(0x10)
+
+	void HideUnboundWarning(); // Function GamepadConfigPanel_WBP.GamepadConfigPanel_WBP_C.HideUnboundWarning // (None) // @ game+0xfffffffec0000000
+};
+

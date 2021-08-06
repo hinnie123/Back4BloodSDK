@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Deprecated_PvP_Tallboy_UpgradedOverheadRadius_Damage_AOE_GE.Deprecated_PvP_Tallboy_UpgradedOverheadRadius_Damage_AOE_GE_C
+// Size: 0x258 (Inherited: 0x258)
+struct UDeprecated_PvP_Tallboy_UpgradedOverheadRadius_Damage_AOE_GE_C : UDeprecated_Tallboy_Overhead_Damage_AOE_GE_C {
+};
+

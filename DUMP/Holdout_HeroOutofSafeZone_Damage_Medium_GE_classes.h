@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Holdout_HeroOutofSafeZone_Damage_Medium_GE.Holdout_HeroOutofSafeZone_Damage_Medium_GE_C
+// Size: 0x280 (Inherited: 0x280)
+struct UHoldout_HeroOutofSafeZone_Damage_Medium_GE_C : UGameplayEffectDamage {
+};
+

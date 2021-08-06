@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass LeapDefense_Tag_01_Mod.LeapDefense_Tag_01_Mod_C
+// Size: 0xe0 (Inherited: 0xe0)
+struct ULeapDefense_Tag_01_Mod_C : UApplyGameplayEffectMod {
+};
+

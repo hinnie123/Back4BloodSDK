@@ -1,0 +1,28 @@
+// BlueprintGeneratedClass ChendaVendor_BP.ChendaVendor_BP_C
+// Size: 0x3e8 (Inherited: 0x330)
+struct AChendaVendor_BP_C : AVendorNPC_Base_BP_C {
+	struct UStaticMeshComponent* TolietPaper_Roll_01_SM; // 0x330(0x08)
+	struct UStaticMeshComponent* Ammo_Pistol_SMG_Pile; // 0x338(0x08)
+	struct UStaticMeshComponent* Ammo_Sniper_Pile; // 0x340(0x08)
+	struct UStaticMeshComponent* DuffelBag_Open_01_SM; // 0x348(0x08)
+	struct UStaticMeshComponent* Pen_01a_SM; // 0x350(0x08)
+	struct UStaticMeshComponent* ConFolder_01a_SM; // 0x358(0x08)
+	struct UStaticMeshComponent* PaperPad_01a_SM; // 0x360(0x08)
+	struct UStaticMeshComponent* Bugspray_01a_SM; // 0x368(0x08)
+	struct UStaticMeshComponent* Sunscreen_01a_SM; // 0x370(0x08)
+	struct UStaticMeshComponent* HG04_Mag_Empty_3P_SM; // 0x378(0x08)
+	struct UStaticMeshComponent* Binoculars_01_SM; // 0x380(0x08)
+	struct UStaticMeshComponent* HG04_Pickup_SM; // 0x388(0x08)
+	struct UUsableHighlightComponent* UsableHighlight; // 0x390(0x08)
+	struct UStaticMeshComponent* Radio_01a_SM9_StaticMeshComponent0; // 0x398(0x08)
+	struct UStaticMeshComponent* PicnicTable_01a_SM_StaticMeshComponent0; // 0x3a0(0x08)
+	struct UStaticMeshComponent* Canteen_01a_SM3_StaticMeshComponent0; // 0x3a8(0x08)
+	struct UStaticMeshComponent* Ammo_Box_02a_SM19_StaticMeshComponent0; // 0x3b0(0x08)
+	struct UStaticMeshComponent* BackPack_01_SM_StaticMeshComponent0; // 0x3b8(0x08)
+	struct UStaticMeshComponent* Ammo_Box_02a_SM20_StaticMeshComponent0; // 0x3c0(0x08)
+	struct USceneComponent* TableParent; // 0x3c8(0x08)
+	struct UStaticMeshComponent* Clipboard_StaticMesh; // 0x3d0(0x08)
+	struct UGameCoachLessonsComponent* GameCoachLessons; // 0x3d8(0x08)
+	struct UItemAkBankComponent* ItemAkBank; // 0x3e0(0x08)
+};
+

@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass SG03_1_BP.SG03_1_BP_C
+// Size: 0x500 (Inherited: 0x500)
+struct ASG03_1_BP_C : ASG03_BP_C {
+};
+
